@@ -1,0 +1,59 @@
+/*Navigation bar & Menu */
+.nav {
+  font-family: $navFontStyle;
+  background-color: rgba(255, 255, 255, 0.41);
+  border-radius: 1px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  height: 4em;
+  position: fixed;
+  width: 100%;
+  font-weight: 700;
+  color: $navColor;
+}
+
+.navRow {
+  position: relative;
+}
+
+
+a.logo:hover {
+  color: $navHoverColor;
+  border-top: solid $navHoverColor;
+}
+
+.logo {
+  color: $navColor;
+  cursor: pointer;
+  display: block;
+  float: left;
+  font-size: 18px;
+  padding: 24px 20px;
+  text-decoration: none !important;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  .navLinks li {
+    float: right;
+    font-size: 13px;
+  }
+}
+
+
+.navLinks li a {
+  color: $navColor;
+  display: block;
+  line-height: 20px;
+  padding: 24px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navLinks li a:hover {
+  color: $navHoverColor;
+  border-top: solid $navHoverColor;
+}

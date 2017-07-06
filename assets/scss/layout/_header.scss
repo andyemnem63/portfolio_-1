@@ -1,0 +1,38 @@
+/* Header */
+.header {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url($headerBackground);
+  //background:url($headerBackground);
+  background-size: 100% auto;
+  background-attachment: fixed;
+  background-position: center;
+  height: 55em;
+  margin-top: -20px;
+}
+
+.headWrapper {
+  top: 6em;
+  height: 500px;
+  width: 70em;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+.headText {
+  padding-top: 190px;
+  font-size: 30px;
+  h1 {
+    color: $headerColor;
+  }
+  p {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-width:3px;
+    color: $headerColor;
+    display: inline;
+    font-size: 20px;
+    line-height: 35px;
+    padding: 8px;
+  }
+}
+
